@@ -1,0 +1,197 @@
+/*
+ Theme Name: てしお
+*/
+
+
+
+body{
+    margin: 0;
+    color: azure;
+    background-color: darkgray;
+    font-family: 'Noto Sans JP',sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li :hover{
+    color: #FF0000;
+}
+
+.mypro{
+    padding-left: 50px;
+}
+
+.nav{
+    padding-right: 50px;
+}
+
+.about{
+    padding-top: 100px;
+}
+
+.jikosyoukai{
+    display: flex;
+}
+
+.works{
+    padding-top: 100px;
+}
+
+.works-content{
+    display: flex;
+    
+}
+
+.works-left{
+    padding-left: 50px;
+}
+
+nav ul li {
+    padding: 0 10px;
+}
+
+nav ul li a {
+    scroll-behavior: smooth;  
+}
+
+
+.insta-logo{
+    width: 50px;
+}
+
+.follow:hover{
+    color: #FF0000;
+}
+
+.face img{
+    border-radius: 50%;
+    width: 150px;
+}
+
+.kennkyuu-img{
+    width: 300px;
+}
+
+.kennkyuu{
+    display: flex;
+    padding-top: 50px;
+}
+
+.kennkyuu-left{
+    padding-left: 50px;
+}
+
+.kotira{
+    border-bottom: solid;
+}
+.kotira:hover{
+    color: #FF0000;
+}
+
+.yuuma{
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+.yuuma-left{
+    padding-left: 50px;
+}
+
+
+
+
+
+@media (min-width:768px) {
+    .works-content{
+        display: flex;
+    }
+    
+     nav ul{
+        display: flex;
+        list-style: none;
+        padding-left: 0;
+    }
+}
+
+.works-content li:nth-child(3){
+    padding-top: 30px;
+}
+
+.works-img{
+    width: 300px;
+}
+
+.hobby{
+    padding-top: 100px;
+}
+
+.hobby-pad{
+    padding: 10px 20px;
+}
+
+.insta, .about, .works, .hobby, .access{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.hobby-content{
+    display: flex;
+}
+
+.atagu{
+    text-decoration: none;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.music{
+    text-decoration: underline;
+}
+
+.music:hover{
+    color: #FF0000;
+}
+
+.footer{
+    align-items: center;
+}
+
+.access{
+    padding-top: 100px;
+}
+
+.note{
+    padding-top: 50px;
+  
+}
+
+.btn a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+    padding: 1rem;
+    font-weight: bold;
+    border-radius: 0.3rem;
+    border-bottom: 7px solid #0686b2;
+    background: #27acd9;
+    color: #fff;
+}
+
+.btn a:hover {
+    border-bottom: 1px solid #0686b2;
+    color: #fff;
+}
